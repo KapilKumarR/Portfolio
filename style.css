@@ -320,14 +320,17 @@ button.toggler-menu {
 @media (max-width: 991px){
     .banner .me{
         opacity: 0.4;
-        width: 80vw;      
+        width: 100vw;      
     }
     
 }
 
 
 #about{
-    font-family: 'Poppins','sans-serif';
+      font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -468,18 +471,23 @@ button.toggler-menu {
 
 
 .tag-list {
-    width: 30rem;
-    font-family: 'Poppins', 'sans-serif';
-    position: relative;
-    z-index: 199; /* Ensures it's on top of other content */
-    overflow: hidden;
+  width: 30rem;
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+  position: relative;
+  z-index: 199;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .inner {
     width: fit-content;
     display: flex;
     gap: 1rem;
-    animation: loop 5s linear infinite;
+    animation: loop 15s linear infinite;
 }
 
 .tag {
