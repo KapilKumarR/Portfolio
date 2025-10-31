@@ -3,109 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kapil | Personal Porfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kapil | Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern&display=swap"
+        rel="stylesheet">
     <style>
-          html {
-    scroll-behavior: smooth; /* Enables smooth scroll */
-  }
+        html {
+            scroll-behavior: smooth;
+        }
 
-.me {
-  background: url('images/kapilg.jpg');
+        .me {
+            background: url('images/kapilg.jpg');
+            background-size: cover;
+            background-position: top center;
+            position: absolute;
+            top: 20%;
+            transform: translate(-50%, 0%);
+            z-index: -999999;
+            left: 50%;
+        }
 
-  background-size: cover;
-  background-position:top center;
-  position: absolute;
-  top: 20%;
-  transform: translate(-50%, 0%);
-  z-index: -999999;
-  left: 50%; /* default for mobile (center) */
-
-}
-
-/* For larger screens (desktop) */
-@media (min-width: 992px) {
-  .me {
-    left: 73%;
-     /* move to the right on desktop */
-  }
-}
-
-</style>
+        @media (min-width: 992px) {
+            .me {
+                left: 73%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="mob-header">
-        <div class="d-flex">
-            <div class="navbar-brand">
-                
-  <p><a href="tel:+918130587559"><label class="nav-link active">📞 +91 81305 87559</label></a>
-  </p>
-                  
-            </div>
-            <button class="toggler-menu">
-                <span></span><span></span><span></span>
-            </button>
+<div class="mob-header">
+    <div class="d-flex">
+        <div class="navbar-brand">
+            <p><a href="tel:+918130587559"><label class="nav-link active">📞 +91 81305 87559</label></a></p>
         </div>
+        <button class="toggler-menu">
+            <span></span><span></span><span></span>
+        </button>
     </div>
+</div>
 
-    <header class="header-left" id="navbar-collapse-toggle">
-        <div class="top">
-            <a href="#">K</a>
-        </div>
-        <ul class="nav nav-menu">
-            <li>
-                <a href="#home" class="nav-link active" data-toggle="tooltip" title="HOME">
-                    <i class="fa fa-user-o"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#about" class="nav-link active" data-toggle="tooltip" title="ABOUT">
-                    <i class="fa fa-address-book-o"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link active" data-toggle="tooltip" title="RESUME">
-                    <i class="fa fa-file-word-o"></i>
-                </a>
-            </li>
-            <!-- <li>
-                <a href="#" class="nav-link active" data-toggle="tooltip" title="BLOG">
-                    <i class="fa fa-rss"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link active" data-toggle="tooltip" title="CONTACT">
-                    <i class="fa fa-volume-control-phone"></i>
-                </a>
-            </li> -->
-        </ul>
-    </header>
+<header class="header-left" id="navbar-collapse-toggle">
+    <div class="top">
+        <a href="#">K</a>
+    </div>
+    <ul class="nav nav-menu">
+        <li>
+            <a href="#home" class="nav-link active" data-toggle="tooltip" title="HOME">
+                <i class="fa fa-user-o"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#about" class="nav-link active" data-toggle="tooltip" title="ABOUT">
+                <i class="fa fa-address-book-o"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#experience" class="nav-link active" data-toggle="tooltip" title="EXPERIENCE">
+                <i class="fa fa-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#services" class="nav-link active" data-toggle="tooltip" title="WHAT I DO">
+                <i class="fa fa-cogs"></i>
+            </a>
+        </li>
+    </ul>
+</header>
 
 <main>
     <section class="banner">
         <div class="top-fixed d-flex">
-                 <div class="info">
-          <label><a href="tel:+918130587559">+91 81305 87559</a></label> 
-          <label><a href="mailto:kapilkumarrahul5@gmail.com">kapilkumarrahul5@gmail.com</a> , <a href="mailto:kapilkumarrahul@zohomail.in">kapilkumarrahul@zohomail.in</a></label>
-         
-          
-        </div>
+            <div class="info">
+                <label><a href="tel:+918130587559">+91 81305 87559</a></label>
+                <label><a href="mailto:kapilkumarrahul5@gmail.com">kapilkumarrahul5@gmail.com</a> , <a
+                        href="mailto:kapilkumarrahul@zohomail.in">kapilkumarrahul@zohomail.in</a></label>
+            </div>
 
             <div class="social">
-<a href="https://www.linkedin.com/in/kapilkumarrahul/" target="_blank" title="Connect with me on LinkedIn">
-  <i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-<a href="https://wa.me/918130587559" target="_blank" title="Chat on WhatsApp">
-  <i class="fa fa-whatsapp" aria-hidden="true"></i>
-</a>
+                <a href="https://www.linkedin.com/in/kapilkumarrahul/" target="_blank"
+                   title="Connect with me on LinkedIn">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://wa.me/918130587559" target="_blank" title="Chat on WhatsApp">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
 
@@ -114,136 +111,115 @@
                 <div class="col-lg-7">
                     <br><br>
                     <div class="box">
-                        <h6>Hello My name is</h6>
+                        <h6>Hello, my name is</h6>
                         <h1>Kapil Kumar</h1>
-                    <p class="lead">
-                         <!-- Element to contain animated typing -->
-                <span id="typing-animation"></span>
-                <script>
-                  const typingAnimationElement = document.getElementById('typing-animation');
-                  const typingTexts = ['HR Recruiter   ', 'IT Support & Admin  ','Django Web Developer   '];
+                        <p class="lead">
+                            <span id="typing-animation"></span>
+                            <script>
+                                const typingAnimationElement = document.getElementById('typing-animation');
+                                const typingTexts = ['HR Recruiter   ', 'IT Support & Admin  ', 'Django Web Developer   '];
 
-                  function playTypingAnimation(text) {
-                    for (let i = 0; i < text.length; i++) {
-                      setTimeout(() => {
-                        typingAnimationElement.textContent += text[i];
-                      }, i * 200);
-                    }
+                                function playTypingAnimation(text) {
+                                    for (let i = 0; i < text.length; i++) {
+                                        setTimeout(() => {
+                                            typingAnimationElement.textContent += text[i];
+                                        }, i * 200);
+                                    }
 
-                    setTimeout(() => {
-                      typingAnimationElement.textContent = '';
-                      playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-                    }, text.length * 200);
-                  }
+                                    setTimeout(() => {
+                                        typingAnimationElement.textContent = '';
+                                        playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                    }, text.length * 200);
+                                }
 
-                  playTypingAnimation(typingTexts[0]);
-                </script>
-                    </p>
-                  <p class="desc">
-I am technology humanist who is passionate about technology and talent acquisition.
-Presently serving as an <strong>HR Recruiter (IT Support & Admin)</strong>, I'm focused on sourcing and hiring.
-<br>
+                                playTypingAnimation(typingTexts[0]);
+                            </script>
+                        </p>
+                        <p class="desc">
+                            I am a technology humanist who is passionate about technology and talent acquisition.
+                            Presently serving as an <strong>HR Recruiter (IT Support & Admin)</strong>, I’m focused on sourcing and hiring
+                            skilled professionals for technical roles. In addition to my HR skills, I also have ability in web and software
+                            with hands-on experience in Python, Django, .NET, and modern front-end technologies.
+                            <br><br>
+                            “What motivates me is the opportunity to impact both sides of a business relationship; helping companies achieve
+                            their goals and assisting professionals in advancing their career.” Passionate about putting the right players
+                            on the right team, I have remained engaged as a recruiter while staying relevant with the latest trends
+                            by continually bettering my craft.
+                        </p>
+                        <br><br>
+                        <div class="btn-bar btn btn-light">
+                            <a href="HRRecruiterCV.pdf" download="Kapil_HR_Recruiter.pdf">Download – HR Recruiter (IT Support & Admin)</a>
+                        </div>
+                        <hr>
+                        <div class="btn-bar btn btn-light">
+                            <a href="ITSupportCV.pdf" download="Kapil_IT_Support.pdf">Download – IT Support & Admin</a>
+                        </div>
+                        <br><br><br><br><br><br>
 
-Skilled professionals for technical roles. In addition to my HR skills, I also have ability in web and software.
-with hands-on experience in Python, Django,. NET, and modern front-end technologies.
-<br>
-“What motivates me is the opportunity to impact both sides of a business relationship; helping companies achieve their goals and assisting professionals in advancing their career.” Passionate about putting the right players on the right team I have remained engaged as a recruiter trying to stay relevant with all th e latest trends by continually bettering my craft.
-technical and interpersonal skill set.
-</p>
-<BR><BR>
-<div class="btn-bar btn btn-light">
-<a href="HRRecruiterCV.pdf" download="Kapil_HR_Recruiter.pdf"> HR Recruiter Resume – [Download PDF]</a>
-</div> 
-<hr>
-<div class="btn-bar btn btn-light">
-<a href="ITSupportCV.pdf" download="Kapil_IT_Support.pdf">💻 IT Support & Admin Resume – [Download PDF]</a>
-</div>             
+                        <div class="tag-list">
+                            <div class="inner">
+                                <div class="tag">Python</div>
+                                <div class="tag">C#</div>
+                                <div class="tag">C / C++</div>
+                                <div class="tag">YAML</div>
+                                <div class="tag">Bootstrap</div>
+                                <div class="tag">HTML / CSS</div>
+                                <div class="tag">ASP.NET Core</div>
+                                <div class="tag">MVC</div>
+                                <div class="tag">MySQL</div>
+                                <div class="tag">SQLite</div>
+                                <div class="tag">Django</div>
+                                <div class="tag">REST API</div>
+                                <div class="tag">JavaScript</div>
+                                <div class="tag">jQuery</div>
+                                <div class="tag">AJAX</div>
+                                <div class="tag">Agile / Scrum</div>
+                                <div class="tag">Leadership</div>
+                                <div class="tag">Employee Engagement</div>
+                                <div class="tag">Team Management</div>
+                                <div class="tag">Communication Skills</div>
+                                <div class="tag">Recruitment</div>
+                                <div class="tag">Technical Hiring</div>
+                                <div class="tag">HR Operations</div>
+                                <div class="tag">Onboarding</div>
+                                <div class="tag">Employer Branding</div>
+                                <div class="tag">Performance Management</div>
+                                <div class="fade"></div>
+                            </div>
+                        </div>
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                const inner = document.querySelector(".tag-list .inner");
+                                if (!inner) return;
+                                const tags = Array.from(inner.querySelectorAll(".tag"));
+                                for (let i = tags.length - 1; i > 0; i--) {
+                                    const j = Math.floor(Math.random() * (i + 1));
+                                    [tags[i], tags[j]] = [tags[j], tags[i]];
+                                }
+                                inner.innerHTML = "";
+                                tags.forEach(tagEl => inner.appendChild(tagEl));
+                                const fade = document.createElement("div");
+                                fade.className = "fade";
+                                inner.appendChild(fade);
+                            });
+                        </script>
 
-<br><br><br>
-<br><br><br>
-
-<!-- Tag lists start-->
-<div class="tag-list">
-  <div class="inner">
-    <div class="tag">Python</div>
-    <div class="tag">C#</div>
-    <div class="tag">C / C++</div>
-    <div class="tag">YAML</div>
-    <div class="tag">Bootstrap</div>
-    <div class="tag">HTML / CSS</div>
-    <div class="tag">ASP.NET Core</div>
-    <div class="tag">MVC</div>
-    <div class="tag">MySQL</div>
-    <div class="tag">SQLite</div>
-    <div class="tag">Django</div>
-    <div class="tag">REST API</div>
-    <div class="tag">JavaScript</div>
-    <div class="tag">jQuery</div>
-    <div class="tag">AJAX</div>
-    <div class="tag">Agile / Scrum</div>
-    <div class="tag">Leadership</div>
-    <div class="tag">Employee Engagement</div>
-    <div class="tag">Team Management</div>
-    <div class="tag">Communication Skills</div>
-    <div class="tag">Recruitment</div>
-    <div class="tag">Technical Hiring</div>
-    <div class="tag">HR Operations</div>
-    <div class="tag">Onboarding</div>
-    <div class="tag">Employer Branding</div>
-    <div class="tag">Performance Management</div>
-    <div class="fade"></div>
-  </div>
-</div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-  const inner = document.querySelector(".tag-list .inner");
-  if (!inner) return;
-
-  // Get array of all .tag elements (exclude .fade if needed)
-  const tags = Array.from(inner.querySelectorAll(".tag"));
-  
-  // Shuffle array (Fisher–Yates)
-  for (let i = tags.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [tags[i], tags[j]] = [tags[j], tags[i]];
-  }
-
-  // Clear inner container
-  inner.innerHTML = "";
-
-  // Re-append in shuffled order
-  tags.forEach(tagEl => inner.appendChild(tagEl));
-
-  // Optionally re-add the fade element if you want it last
-  const fade = document.createElement("div");
-  fade.className = "fade";
-  inner.appendChild(fade);
-});
-
-</script>
-
-<!-- Tag lists End-->
-
-
-    </div>
-    </div>
-</div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-
-<div class="me"></div>
-
-            
-        </div>
+        <div class="me"></div>
     </section>
-    
+
 </main>
+
 <br>
 <div class="container">
     <div class="active"><img class="image-divider"
-       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101448/wedding-divider-png-9.png" /></div> <!-- Added a margin for better spacing -->
-</div><br>
-<br>
+                              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101448/wedding-divider-png-9.png" /></div>
+</div>
+<br><br>
 
 <section id="about">
     <div class="container">
@@ -254,17 +230,17 @@ technical and interpersonal skill set.
                         <img src="images/kapilbio.jpg" alt="biopic">
                     </div>
                     <div class="nav social-icons justify-content-center">
-                        <a href="https://www.linkedin.com/in/kapilkumarrahul/" target="_blank" title="Connect with me on LinkedIn">
-  <i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-<a href="https://wa.me/918130587559" target="_blank" title="Chat on WhatsApp">
-  <i class="fa fa-whatsapp" aria-hidden="true"></i>
-</a>
+                        <a href="https://www.linkedin.com/in/kapilkumarrahul/" target="_blank"
+                           title="Connect with me on LinkedIn">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/918130587559" target="_blank" title="Chat on WhatsApp">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="info">
-                    <strong><p>HR Recruiter / Web Developer</p>
-                    </strong>
+                    <strong><p>HR Recruiter / Web Developer</p></strong>
                     <h3>Kapil Kumar</h3>
                 </div>
             </div>
@@ -277,14 +253,16 @@ technical and interpersonal skill set.
                     <br><br>
                     <div class="text-white">
                         <p>
-                            I’m a dedicated HR Recruiter and Web Developer passionate about bridging the gap between technology and talent. 
-                            Currently working in the HR domain (IT Support & Admin), I specialize in sourcing, screening, and onboarding skilled professionals across 
-                            IT and technical roles. Alongside recruitment, I’m also a tech enthusiast skilled in Python, Django, .NET, and front-end technologies like 
-                            HTML, CSS, and Bootstrap.
+                            I’m a dedicated HR Recruiter and Web Developer passionate about bridging the gap between
+                            technology and talent. Currently working in the HR domain (IT Support & Admin), I specialize
+                            in sourcing, screening, and onboarding skilled professionals across IT and technical roles.
+                            Alongside recruitment, I’m also a tech enthusiast skilled in Python, Django, .NET, and front-end
+                            technologies like HTML, CSS, and Bootstrap.
                         </p>
                         <p>
-                            I believe in continuous learning and professional growth. My goal is to blend my technical background with HR expertise to build 
-                            efficient, people-centered solutions that enhance organizational success.
+                            I believe in continuous learning and professional growth. My goal is to blend my technical
+                            background with HR expertise to build efficient, people-centered solutions that enhance
+                            organizational success.
                         </p>
                     </div>
 
@@ -318,195 +296,226 @@ technical and interpersonal skill set.
                                     </li>
                                     <li>
                                         <label>Email:</label>
-                                        <span><a href="mailto:kapilkumarrahul5@gmail.com">kapilkumarrahul5@gmail.com</a> , <a href="mailto:kapilkumarrahul@zohomail.in">kapilkumarrahul@zohomail.in</a></span>
+                                        <span><a href="mailto:kapilkumarrahul5@gmail.com">kapilkumarrahul5@gmail.com</a> , <a
+                                                href="mailto:kapilkumarrahul@zohomail.in">kapilkumarrahul@zohomail.in</a></span>
                                     </li>
-                                    
-                                    
                                 </ul>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+
 <br><br>
 <div class="container">
     <img class="image-divider"
-       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101448/wedding-divider-png-9.png" />
+         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101448/wedding-divider-png-9.png" />
+</div>
 <br><br>
-<div class="title text-center text-white mb-5">
-    <h3>What I Do?</h3>
-</div>
 
-<div class="row text-center">
+<section id="services">
+    <div class="container">
+        <div class="title text-center text-white mb-5">
+            <h3>What I Do?</h3>
+        </div>
 
-    <!-- Talent Acquisition -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/TLicon.png" alt="Talent Acquisition Icon" class="icon-img">
+        <div class="row text-center">
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/TLicon.png" alt="Talent Acquisition Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">Talent Acquisition</h5>
+                        <p class="small">
+                            I specialise in sourcing, screening, and onboarding top talent for IT and non-IT roles.
+                            With strong interpersonal and analytical skills, I ensure every hire aligns with business goals
+                            and culture.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">Talent Acquisition</h5>
-                <p class="small">
-                    I specialize in sourcing, screening, and onboarding top talent for IT and non-IT roles.
-                    With strong interpersonal and analytical skills, I ensure every hire aligns with business goals and culture fit.
-                </p>
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/Ricon.png" alt="Recruitment Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">Recruitment & HR Coordination</h5>
+                        <p class="small">
+                            Experienced in full-cycle recruitment, HR documentation, and employee engagement. I handle
+                            interview coordination, offer rollouts, and maintain strong professional relations within teams.
+                        </p>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/sd.png" alt="Web Development Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">Full Stack Web Development</h5>
+                        <p class="small">
+                            I build dynamic, responsive web applications using <strong>Django, .NET, Bootstrap, HTML, CSS, JavaScript</strong>
+                            and databases like MySQL and SQLite — delivering functional, user-friendly designs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/BDicon.png" alt="Business Development Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">Business Development</h5>
+                        <p class="small">
+                            I help organisations grow by identifying clients, partnerships, and opportunities.
+                            My communication skills and market understanding support strong business relations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/RWicon.png" alt="Resume Writing Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">Resume Writing & Personal Branding</h5>
+                        <p class="small">
+                            I assist professionals in creating impactful resumes and LinkedIn profiles that highlight
+                            their core strengths, achievements, and skills to attract better career opportunities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="box1 p-4 shadow-lg">
+                    <div class="icon-container">
+                        <img src="images/icons/ITicon.png" alt="Technical Support Icon" class="icon-img">
+                    </div>
+                    <div class="content text-white mt-3">
+                        <h5 class="py-4">IT Support & Admin</h5>
+                        <p class="small">
+                            Adept at handling IT administrative tasks, system support, and process documentation to
+                            streamline recruitment and operational efficiency in fast-paced environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</section>
 
-    <!-- Recruitment & HR Coordination -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/Ricon.png" alt="Recruitment Icon" class="icon-img">
-            </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">Recruitment & HR Coordination</h5>
-                <p class="small">
-                    Experienced in full-cycle recruitment, HR documentation, and employee engagement.
-                    I handle interview coordination, offer rollouts, and maintain strong professional relations within teams.
-                </p>
-            </div>
-        </div>
+<!-- Experience Section -->
+<section id="experience" class="py-5 text-white">
+  <div class="container">
+    <div class="title text-center mb-5">
+      <h3>Professional Experience</h3>
     </div>
 
-    <!-- Full Stack Web Development -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/sd.png" alt="Web Development Icon" class="icon-img">
-            </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">Full Stack Web Development</h5>
-                <p class="small">
-                    I build dynamic, responsive web applications using <strong>Django, .NET, Bootstrap, HTML, CSS, JavaScript</strong> 
-                    and databases like MySQL and SQLite — ensuring functional and user-friendly designs.
-                </p>
-            </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 mb-4">
+        <div class="card bg-dark shadow-lg border-0 h-100">
+          <div class="card-body">
+            <h5 class="card-title text-warning">HR Recruiter (IT Support & Admin)</h5>
+            <h6 class="card-subtitle mb-2 text-muted">ICON CONSULTANTS | July 2025 – Present</h6>
+            <p class="small text-muted">Nehru Place, Delhi</p>
+            <ul class="small">
+              <li>Managed daily office operations, including inventory management, bill payments, and file organization, ensuring a well-maintained and efficient workspace.</li>
+              <li>Developed and maintained the company website, handled email communications and performed basic cPanel hosting tasks such as managing websites, databases, and email accounts.</li>
+              <li>Monitored and tracked office expenses, maintaining accurate records in a ledger to support financial transparency and accountability.</li>
+              <li>Led the end-to-end recruitment process, including candidate sourcing, resume screening, interview coordination, and offer management, focusing on mid- to senior-level roles across various industries.</li>
+              <li>Utilized major job portals like Naukri, Shine, iimjobs, Apna, and LinkedIn for posting job openings and managing candidate pipelines.</li>
+              <li>Conducted Boolean searches, screened resumes, and shortlisted candidates, ensuring alignment with job requirements and organizational needs.</li>
+              <li>Managed HR operations including onboarding, attendance tracking, and maintaining up-to-date employee records, ensuring compliance with company policies.</li>
+              <li>Prepared HR reports and maintained compliance documentation (signed policy forms, spreadsheets) to support organizational governance.</li>
+              <li>Built and maintained a candidate database, categorizing potential hires by skills, experience, and availability, facilitating efficient recruitment processes.</li>
+              <li>Led business development efforts, identifying new clients, building relationships, and gathering detailed staffing requirements to deliver tailored recruitment solutions.</li>
+              <li>Contributed to revenue growth by successfully securing new client accounts and delivering effective recruitment services.</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
 
-    <!-- Business Development -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/BDicon.png" alt="Business Development Icon" class="icon-img">
-            </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">Business Development</h5>
-                <p class="small">
-                    I contribute to organizational growth by identifying new clients, partnerships, and opportunities.
-                    My communication skills and market understanding help in fostering strong business relations.
-                </p>
-            </div>
-        </div>
-    </div>
+  </div>
+</section>
 
-    <!-- Resume Writing & Personal Branding -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/RWicon.png" alt="Resume Writing Icon" class="icon-img">
-            </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">Resume Writing & Personal Branding</h5>
-                <p class="small">
-                    I assist professionals in creating impactful resumes and LinkedIn profiles that highlight 
-                    their core strengths, achievements, and skills to attract better career opportunities.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Technical Support & Administration -->
-    <div class="col-lg-4 mb-4">
-        <div class="box1 p-4 shadow-lg">
-            <div class="icon-container">
-                <img src="images/icons/ITicon.png" alt="Technical Support Icon" class="icon-img">
-            </div>
-            <div class="content text-white mt-3">
-                <h5 class="py-4">IT Support & Admin</h5>
-                <p class="small">
-                    Adept at handling IT administrative tasks, system support, and process documentation to 
-                    streamline recruitment and operational efficiency in fast-paced environments.
-                </p>
-            </div>
-        </div>
-    </div>
-
-</div>
-<img class="image-divider"
-       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/101448/wedding-divider-png-9.png" /> 
 <footer class="text-center py-4 bg-black text-light">
-
     <br><br>
-      <p>© 2025 Designed & Maintained by <strong>Kapil Kumar Rahul</strong></p>
-    </footer>
+    <p>© 2025 Designed & Maintained by <strong>Kapil Kumar Rahul</strong></p>
+</footer>
 
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
-  <script src="jquery.stapel.js"></script>
-  <script src="modernizr.custom.63321.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+<script src="jquery.stapel.js"></script>
+<script src="modernizr.custom.63321.js"></script>
 
-  <script>
+<script>
     $(function () {
-        var $grid = $('#tp-grid'), // The grid container
-            $name = $('#name'), // Element to display the name of the opened pile
-            $close = $('#close'), // Close button
-            // Create a loader element to indicate loading
+        var $grid = $('#tp-grid'), 
+            $name = $('#name'), 
+            $close = $('#close'),
             $loader = $('<div class="loader">Loading...</div>').insertBefore($grid),
-            // Initialize the stapel plugin with desired options
             $stapel = $grid.stapel({
-                randomAngle: true, // Enable random angles for cards
-                delay: 50, // Delay between animations
-                gutter: 70, // Space between elements
-                pileAngles: 5, // Maximum angles in the pile
+                randomAngle: true,
+                delay: 50,
+                gutter: 70,
+                pileAngles: 5,
                 onLoad: function () {
-                    $loader.remove(); // Remove the loader once content is loaded
+                    $loader.remove();
                 },
                 onBeforeOpen: function (pileName) {
-                    $name.html(pileName); // Display the pile name
+                    $name.html(pileName);
                 },
                 onAfterOpen: function (pileName) {
-                    $close.show(); // Show the close button after opening a pile
+                    $close.show();
                 }
             });
 
-        // Close button functionality
         $close.on('click', function () {
-            $close.hide(); // Hide the close button
-            $name.empty(); // Clear the displayed name
-            $stapel.closePile(); // Close the currently open pile
+            $close.hide();
+            $name.empty();
+            $stapel.closePile();
         });
     });
 </script>
-    
-    <script>
-       (function($){
-           "use strict";
-           var NAY = {};
-           NAY.MenuTogglerClose = function(){
-               // Toggler menu click event to open/close the sidebar
-               $(".toggler-menu").on('click', function(){
-                   $('.header-left').stop().toggleClass('menu-open');
-               });
-    
-               // Optionally close the menu when any nav link is clicked
-               $('.header-left .nav-link').on('click', function(){
-                   $('.header-left').removeClass('menu-open');
-               });
-           }
-    
-           // Ensure this runs after DOM is fully loaded
-           $(document).ready(function(){
-               console.log("DOM is ready"); // Debugging
-               NAY.MenuTogglerClose();
-           });
-       })(jQuery);
-    </script>
+
+<script>
+    (function($){
+        "use strict";
+        var NAY = {};
+        NAY.MenuTogglerClose = function(){
+            $(".toggler-menu").on('click', function(){
+                $('.header-left').stop().toggleClass('menu-open');
+            });
+            $('.header-left .nav-link').on('click', function(){
+                $('.header-left').removeClass('menu-open');
+            });
+        }
+
+        $(document).ready(function(){
+            NAY.MenuTogglerClose();
+        });
+    })(jQuery);
+</script>
+
 </body>
 </html>
